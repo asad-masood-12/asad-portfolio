@@ -64,7 +64,7 @@
   line-height: 1.05;
   letter-spacing: -0.03em;
   margin-bottom: var(--space-md);
-  background: linear-gradient(135deg, var(--color-text) 0%, #7c3aed 50%, #2563eb 100%);
+  background: linear-gradient(135deg, var(--color-text) 0%, #0ea5e9 50%, #06b6d4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
