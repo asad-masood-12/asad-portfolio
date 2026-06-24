@@ -33,27 +33,6 @@ export default function About() {
             <div className="about-avatar-container">
               <div className="about-avatar-ring" />
               <img src={profileImg} alt="Asad Ullah Masood" className="about-avatar-img" />
-              <motion.div
-                className="about-floating-tag"
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-              >
-                🤖 AI/ML Expert
-              </motion.div>
-              <motion.div
-                className="about-floating-tag"
-                animate={{ y: [0, 8, 0] }}
-                transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-              >
-                🎙️ Voice AI
-              </motion.div>
-              <motion.div
-                className="about-floating-tag"
-                animate={{ y: [0, -6, 0] }}
-                transition={{ duration: 2.8, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-              >
-                🔗 LangChain
-              </motion.div>
             </div>
           </motion.div>
 
