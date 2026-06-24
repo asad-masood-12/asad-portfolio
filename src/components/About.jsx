@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { HiOutlineDocumentArrowDown, HiOutlineEnvelope } from 'react-icons/hi2';
 import { personalInfo, education } from '../data/portfolioData';
+import profileImg from '../../Asad Ullah Masood.jpg';
 import './About.css';
 
 export default function About() {
@@ -31,7 +32,7 @@ export default function About() {
           >
             <div className="about-avatar-container">
               <div className="about-avatar-ring" />
-              <div className="about-avatar">AM</div>
+              <img src={profileImg} alt="Asad Ullah Masood" className="about-avatar-img" />
               <motion.div
                 className="about-floating-tag"
                 animate={{ y: [0, -8, 0] }}

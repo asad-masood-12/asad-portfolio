@@ -48,7 +48,6 @@
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  background: var(--color-accent-gradient);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +56,18 @@
   color: #fff;
   position: relative;
   z-index: 1;
-  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.2);
+  overflow: hidden;
+}
+
+.about-avatar-img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  border: 3px solid var(--color-accent);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.3);
 }
 
 .about-floating-tag {
