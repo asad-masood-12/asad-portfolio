@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-/* ===== Design Tokens - Light Theme with Sky Blue ===== */
+/* ===== Design Tokens - Light Theme with Blue Accents ===== */
 :root {
-  /* Colors - Light Theme with Sky Blue */
+  /* Colors - Light Theme with Blue Accents */
   --color-bg: #f8fafc;
   --color-bg-alt: #ffffff;
   --color-bg-elevated: #f1f5f9;
-  --color-text: #1e293b;
+  --color-text: #0f172a;
   --color-text-secondary: #475569;
   --color-text-muted: #64748b;
-  --color-accent: #0ea5e9;
-  --color-accent-light: #38bdf8;
-  --color-accent-dark: #0284c7;
-  --color-accent-gradient: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
-  --color-secondary-gradient: linear-gradient(135deg, #06b6d4 0%, #0ea5e9 100%);
-  --color-accent-glow: rgba(14, 165, 233, 0.2);
-  --color-border: rgba(148, 163, 184, 0.15);
-  --color-border-hover: rgba(14, 165, 233, 0.3);
+  --color-accent: #0284c7;
+  --color-accent-light: #0ea5e9;
+  --color-accent-dark: #0c63e4;
+  --color-accent-gradient: linear-gradient(135deg, #0284c7 0%, #06b6d4 100%);
+  --color-secondary-gradient: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  --color-accent-glow: rgba(2, 132, 199, 0.2);
+  --color-border: rgba(148, 163, 184, 0.2);
+  --color-border-hover: rgba(2, 132, 199, 0.25);
 
   /* Glass - Subtle Glassmorphism */
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-bg-hover: rgba(255, 255, 255, 0.85);
-  --glass-border: rgba(14, 165, 233, 0.15);
-  --glass-shadow: 0 8px 32px rgba(14, 165, 233, 0.08);
-  --glass-shadow-hover: 0 16px 48px rgba(14, 165, 233, 0.12);
+  --glass-border: rgba(2, 132, 199, 0.15);
+  --glass-shadow: 0 8px 32px rgba(2, 132, 199, 0.08);
+  --glass-shadow-hover: 0 16px 48px rgba(2, 132, 199, 0.12);
 
 
   /* Typography */
@@ -129,7 +129,7 @@ img {
 .orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(14, 165, 233, 0.25), transparent 70%);
+  background: radial-gradient(circle, rgba(15, 23, 42, 0.25), transparent 70%);
   top: -10%;
   left: -5%;
   animation: float-1 28s ease-in-out infinite;
@@ -138,7 +138,7 @@ img {
 .orb-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(6, 182, 212, 0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(2, 132, 199, 0.2), transparent 70%);
   top: 30%;
   right: -10%;
   animation: float-2 32s ease-in-out infinite;
@@ -147,7 +147,7 @@ img {
 .orb-3 {
   width: 350px;
   height: 350px;
-  background: radial-gradient(circle, rgba(2, 132, 199, 0.22), transparent 70%);
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.18), transparent 70%);
   bottom: 10%;
   left: 20%;
   animation: float-3 30s ease-in-out infinite;
@@ -156,7 +156,7 @@ img {
 .orb-4 {
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(14, 165, 233, 0.18), transparent 70%);
+  background: radial-gradient(circle, rgba(30, 58, 138, 0.15), transparent 70%);
   top: 60%;
   right: 25%;
   animation: float-4 26s ease-in-out infinite;
@@ -165,7 +165,7 @@ img {
 .orb-5 {
   width: 250px;
   height: 250px;
-  background: radial-gradient(circle, rgba(6, 182, 212, 0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(2, 132, 199, 0.12), transparent 70%);
   top: 10%;
   left: 50%;
   animation: float-5 24s ease-in-out infinite;
@@ -174,7 +174,7 @@ img {
 .orb-6 {
   width: 350px;
   height: 350px;
-  background: radial-gradient(circle, rgba(2, 132, 199, 0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(15, 23, 42, 0.1), transparent 70%);
   bottom: -5%;
   right: -5%;
   animation: float-6 29s ease-in-out infinite;
@@ -242,7 +242,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--color-accent);
-  background: rgba(124, 58, 237, 0.08);
+  background: rgba(2, 132, 199, 0.08);
   padding: var(--space-xs) var(--space-md);
   border-radius: var(--radius-full);
   margin-bottom: var(--space-md);
@@ -288,15 +288,15 @@ img {
   font-weight: 500;
   padding: 4px 12px;
   border-radius: var(--radius-full);
-  background: rgba(124, 58, 237, 0.08);
+  background: rgba(2, 132, 199, 0.08);
   color: var(--color-accent);
-  border: 1px solid rgba(124, 58, 237, 0.15);
+  border: 1px solid rgba(2, 132, 199, 0.15);
   transition: all var(--transition-fast);
 }
 
 .tag:hover {
-  background: rgba(124, 58, 237, 0.15);
-  border-color: rgba(124, 58, 237, 0.3);
+  background: rgba(2, 132, 199, 0.15);
+  border-color: rgba(2, 132, 199, 0.3);
 }
 
 /* ===== Button ===== */
